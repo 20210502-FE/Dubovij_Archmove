@@ -1,0 +1,429 @@
+
+
+    @font-face {
+    font-family: 'SF UI Display Ultralight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Ultralight'), url('fonts/sf-ui-display-ultralight-58646b19bf205.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF UI Display Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Thin'), url('fonts/sf-ui-display-thin-58646e9b26e8b.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Light'), url('fonts/sf-ui-display-light-58646b33e0551.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Medium'), url('fonts/sf-ui-display-medium-58646be638f96.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF UI Display Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Semibold'), url('fonts/sf-ui-display-semibold-58646eddcae92.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF UI Display Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Bold'), url('fonts/sf-ui-display-bold-58646a511e3d9.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF UI Display Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Heavy'), url('fonts/sf-ui-display-heavy-586470160b9e5.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF UI Display Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Black'), url('fonts/sf-ui-display-black-58646a6b80d5a.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'New York Extra Large';
+        font-style: normal;
+        font-weight: normal;
+        src: local('New York Extra Large Bold'), url('fonts/NewYorkExtraLargeBold.otf') format('woff');
+        }
+     @import url('http://fonts.cdnfonts.com/css/new-york-extra-large');
+                
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+     body {
+        font-family: 'SF UI Display';
+        font-style: normal;
+        font-weight: 600;
+     } 
+
+     a {
+         text-decoration: none;
+     }
+
+     li {
+         list-style: none;
+     }
+
+
+     .nav {
+         display: flex;
+         justify-content: space-between;
+         
+     } 
+
+     .nav__list {
+         margin-right: 48px;
+     }
+
+     .nav__text {
+        color: #585858;
+        font-family: 'SF UI Display';
+         font-style: normal;
+         font-weight: normal;
+         font-size: 14px;
+         line-height: 40px;
+     }
+
+     .button {
+         display: inline-block;
+         color: #585858;
+         padding: 4px 24px;
+         font-family: 'SF UI Display';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 40px;
+         
+        
+     }
+
+     .button:hover {
+          background-color: #FD665E;
+           border-radius: 4px;
+           color: #FFFFFF;
+     }
+
+         .heading {
+        color: #FD665E;
+    }    
+
+    .title-h2 {
+        font-family: 'New York Extra Large';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 124%;
+        letter-spacing: -0.04em;
+        color: #000000;
+    }
+     .header-wrap {
+         max-width: 80%;
+     }
+
+     .navigation-top {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        justify-content: space-around;
+        padding: 34px 50px 72px 50px;
+     }
+
+     .logo__img {
+         min-width: 62px;
+         margin: 0;
+     }
+
+     .wrap-content-top {
+         min-width: 80%;
+     }
+
+     .wrap-header {
+          display: flex;
+         justify-content: space-between;
+         flex-wrap: nowrap;
+         align-items: baseline;
+         margin: 0 -5px;
+     }
+
+    .wrap70 {
+        max-width: 50%;
+        flex-basis: 50%;
+        align-items: baseline;
+    }
+     
+    .wrap30 {
+        display: flex;
+        justify-content: space-between;
+        min-width: 107px;
+        align-items: baseline;
+    }
+
+    .search {
+        margin-right: 25px;
+        align-self: center;
+    }
+
+    .wrap-content{
+        max-width: 78%;
+        margin: auto;
+    }
+    .wrap-title {
+        display: flex;
+        max-width: 70%;
+        flex-basis: 70%;
+        flex-wrap: wrap;
+        padding-bottom: 47px;
+    }
+    .title {
+        font-family: 'New York Extra Large';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 112px;
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        color: #000000;
+    } 
+    
+    .start {
+        display: flex;
+    }
+
+    .start__wrap-left {
+        max-width: 30%;
+        flex-basis: 30%;
+        padding-right: 35px;
+    }
+
+    .start__text {
+        font-family: 'SF UI Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 160%;        
+        letter-spacing: 0.01em;        
+        color: #000000;
+        margin-bottom: 56px;
+    }
+
+    .start__wrap-right {
+     min-width: 70%;
+     flex-basis: 70%;
+     margin-right: -10px;
+    }
+
+    .rooms {
+        padding-top: 112px;
+    }
+
+    .rooms_wrap-title {
+        max-width: 70%;
+        margin-left: 30%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 40px;
+    }
+
+    .wrap-slide {
+        align-self: flex-end;
+    }
+
+    .wrap-rooms {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 -40px;
+        max-height: 432px;
+        margin-bottom: 128px;
+    }
+
+    .wrap-rooms__wrap {
+        max-width: 25%;
+        flex-basis: 25%;
+        padding: 0 20px;
+        height: 432px;
+    }
+
+     .wrap-rooms__image {
+        padding: 0 20px;
+        height: 100%;
+    } 
+
+    .archmove__title {
+        padding-bottom: 40px;
+    }
+
+    .archmove__content {
+        display: flex;
+    }
+
+    .archmove__content-left {
+        max-width: 50%;
+        flex-basis: 50%;
+        margin-bottom: 128px;
+    }
+
+    .archmove__content-right {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+
+    .content-right__wrap {
+        display: flex;
+        flex-direction: column;
+        max-width: 70%;
+        margin: 0 auto;
+        padding-top: 44px;
+    }
+
+    .content-right__flex {
+        display: flex;
+        margin-bottom: 48px;
+    }
+
+    .content-right__icon {
+       width: 48px; 
+       height: 55px;
+       margin-right: 54px;
+    }
+
+    .bold {
+        font-family: 'SF UI Display';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.01em;
+        color: #000000;
+        margin-bottom: 8px;
+    }
+
+    .normal {
+        font-family: 'SF UI Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.01em;
+        color: #000000;
+    }
+
+    .wrap-button {
+        margin-top: 72px;
+    }
+
+    .wrap-true-content {
+        max-width: 70%;
+        display: flex;
+        margin-left: 25%;
+        justify-content: space-between;
+    }
+
+    .true-content__right {
+        padding-right: 26px;
+    }
+
+    .true-content__img {
+        width: 57px;
+        height: 40px;
+    }
+
+    .true-content__left {
+        padding-left: 26px;
+        margin-right: -52px;
+        margin-bottom: 163px;
+    }
+
+    .true-content__text {
+        margin-right: -26px;
+        font-family: 'SF UI Display';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 51px;
+        letter-spacing: 0.01em;
+        color: #000000;
+        margin-bottom: 48px;
+    }
+
+    .bottom-wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bottom-text {
+        font-family: 'SF UI Display';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .realize-wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 120px;
+    }
+
+    .realize__right {
+        align-self: center;
+    }
+
+    .title-realize-wrap {
+        margin-bottom: 72px;
+    }
+
+    .true__title-wrap {
+        margin-bottom: 56px;
+    }
+
+    .footer-wrap {
+        display: flex;
+        justify-content: space-between;
+        min-width: 100%;
+        align-items: center;
+        margin-bottom: 190px;
+    }
+
+    .footer-bottom {
+        padding-bottom: 84px;
+    }
+
+
+
+
+
+
+
+
+
+
